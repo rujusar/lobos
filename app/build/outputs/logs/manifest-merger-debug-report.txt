@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
@@ -15,14 +15,21 @@ ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManife
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/palette-v7/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:8:9-41
@@ -49,35 +56,72 @@ ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
-INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.3.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/palette-v7/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
+		ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:22:9-38
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
+		ADDED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml:21:9-34
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jcovas/Development/chromecast/lobos/app/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/AndroidManifest.xml:7:18-90
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/palette-v7/25.3.1/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.3.1/AndroidManifest.xml:24:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.3.1/AndroidManifest.xml:23:9-47
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/jcovas/Development/chromecast/lobos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65
